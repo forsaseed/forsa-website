@@ -669,7 +669,7 @@ img {
     padding-top: var(--spacing-lg);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -677,34 +677,6 @@ img {
     font-family: var(--font-primary);
     font-size: 0.875rem;
     color: var(--color-text-light);
-}
-
-.footer__language {
-    font-family: var(--font-primary);
-    font-size: 0.875rem;
-    color: var(--color-text-light);
-    background: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 0.5rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    transition: all var(--transition-fast);
-}
-
-.footer__language:hover {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-}
-
-.footer__language svg {
-    transition: transform var(--transition-fast);
-}
-
-.footer__language:hover svg {
-    transform: translateY(2px);
 }
 
 /* Responsive adjustments for footer */
