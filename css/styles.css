@@ -533,3 +533,65 @@ img {
     }
 }
 
+/* Call to Action Section */
+.cta {
+    padding: var(--spacing-xl) 0;
+    background: linear-gradient(135deg, rgba(88, 138, 54, 0.1), rgba(88, 138, 54, 0.05));
+}
+
+.cta__content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta__title {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-h2);
+    font-weight: 900;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-md);
+}
+
+.cta__text {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta__link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition-fast);
+}
+
+.cta__link:hover {
+    color: var(--color-text);
+}
+
+.cta__subtext {
+    font-family: var(--font-primary);
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+    .cta {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .cta__title {
+        font-size: 2rem;
+    }
+
+    .cta__text {
+        font-size: 1.25rem;
+    }
+
+    .cta__subtext {
+        font-size: 1rem;
+    }
+}
+
